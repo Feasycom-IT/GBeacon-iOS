@@ -1,0 +1,445 @@
+/* 
+  Localizable.strings
+  FeasyBeacon
+
+  Created by LIDONG on 14-3-1.
+  Copyright (c) 2014年 LIDONG. All rights reserved.
+*/
+
+"WATCH" = "手表";
+"PULL_DOWN_TO_REFRESH" = "下拉刷新……";
+"RELEASE_TO_REFRESH" = "放开刷新……";
+"REFRESHING" = "正在加载";
+"LOCAL_HOST" = "本机";
+"PERIPHERAL" = "外设";
+"Unnamed" = "未命名";
+"BLUETOOTH_POWEROFF_TITLE" = "蓝牙已关闭";
+"BLUETOOTH_POWEROFF_PROMPT" = "请在设置中打开";
+"CLOSE" = "关闭";
+"CONNECTING" = "正在连接";
+"CONNECTION_ABORT" = "连接已中断";
+"TOTAL_SENT" = "共计发送";
+"TOTAL_RECEIVED" = "共计接收";
+"BYTE(S)" = "字节";
+"Shenzhen Feasycom Technology Co.,Ltd" = "深圳市飞易通科技有限公司";
+"User Agreement" = "用户协议";
+"Privacy Agreement" = "隐私协议";
+
+"Setting" = "设置";
+"Save" = "保存";
+"Model:" = "模型：";
+"Version:" = "版本：";
+"Name:" = "名称：";
+"Interval(ms):" = "间隔(ms)：";
+"Sort" = "排序";
+"Filter" = "过滤";
+"Decrypt" = "密钥";
+"RSSI Filter" = "RSSI过滤";
+"RSSI Filter Threshold: " = "RSSI过滤阈值：";
+"Sensor" = "传感器";
+"About" = "关于";
+"Password" = "密码";
+"Please input six PIN code" = "请输入六位数的PIN码";
+"Please input six digits's PIN code" = "请输入6位数字的PIN码";
+"Please input PIN code" = "请输入PIN码";
+"Please input DecryptKey 128-AES" = "请输入解密密钥128-AES";
+"Please input 128 bit AES key" = "请输入128位的AES密钥";
+
+"FEEDBACK" = "问题反馈";
+"Feedback" = "反馈";
+"Submit" = "提交";
+"Advice" = "建议";
+"Dysfunction" = "功能异常";
+"UI adnormal" = "界面异常";
+"Cooperation" = "合作";
+"FEEDBACK_SUCCEEDED" = "反馈成功！";
+"FEEDBACK_FAILED" = "反馈失败！";
+"Clear logs" = "清空日志";
+"OK" = "确定";
+"Finish" = "完成";
+"Broadcast Type" = "广播类型";
+"Disconnected" = "连接已断开";
+"Connection timeout" = "连接超时";
+"Query parameters timeout" = "查询参数超时";
+"Query parameters failed" = "查询参数失败";
+"Save parameters timeout" = "保存参数超时";
+"Broadcast interval, Gsensor interval and Key interval cannot be 0 at the same time" = "广播间隔，G传感器间隔和Key间隔不能同时为0";
+"Broadcast interval, G-Sensor interval and Key interval, at least one value: 0 < X ≤ 2000" = "广播间隔，G传感器间隔和Key间隔，至少一个值：0 < X ≤ 2000";
+"At least one item of the broadcast interval is less than or equal to 2000 and not 0, otherwise the module may be unusable after setting!" = "广播间隔至少有一项小于或等于2000并且不为0,否则设置后模块可能将无法使用！";
+"SET_SUCCESSFUL" = "设置成功";
+"SET_FAILED" = "设置失败";
+"Password Failed" = "密码失败";
+"PIN code failed" = "PIN码错误";
+"Cancel" = "取消";
+"Upgrade" = "升级";
+"Please update to the new version" = "请更新到新版本";
+"Upgrade successful" = "升级成功";
+"Upgrade failed" = "升级失败";
+"Model not matched" = "升级文件与模块型号不匹配";
+"Please config your mail settings" = "请配置你的邮件设置";
+"You cancelled the composition!" = "你取消了编辑！";
+"The mail has been saved!" = "邮件已保存！";
+"The mail has been sent!" = "邮件已发送！";
+"The mail sending failed!" = "邮件发送失败！";
+
+"Company" = "公司";
+"Tel" = "电话";
+"Web" = "网址";
+"E-mail" = "电子邮件";
+"WeChat" = "微信";
+"Manual" = "手册";
+"Version" = "版本";
+"details" = "详情";
+"COMPANY_INTRODUCTION" = "飞易通专注于物联网产品的研发，包括蓝牙模块、WiFi和LoRa模块、蓝牙信标等，具有10年以上的无线连接经验，具备低风险产品开发能力，降低系统集成成本，缩短产品定制周期，为全球成千上万的客户提供服务。\r\n\n\n\nFeasycom的工程和设计服务包括：\r\n\nSDK\r\n\nAPP支持\r\n\nPCB 设计\r\n\n开发板\r\n\n软件开发\r\n\n深度定制\r\n\n确认请求\r\n\n返回密钥生产测试与制造\r\n\n\n\n我们的产品和服务主要应用于汽车、销售点、家庭自动化、医疗保健和工程、银行、计算机、自动售货业务、位置、照明等领域。\r\n\n\n\n以“让沟通更便捷、更自由”为目标，Feasycom致力于设计和开发高质量的产品，为客户提供高效的服务，无论是今天还是未来。";
+"PIN_CODE_LENGTH_ERROR" = "PIN码长度必须为6位";
+"PIN_CODE_CHARACTER_ERROR" = "PIN码必须为数字";
+"INPUT_QUESTION_PROMPT" = "请输入反馈问题。";
+"INPUT_TOO_MUCH_PROMPT" = "输入的字符数超过512个";
+"Store" = "商城";
+"Image saved" = "保存成功，请到相册查看";
+"DATA_CANNOT_BE_EMPTY" = "数据不能为空";
+"INTERVAL_PROMPT" = "选择这个广播间隔可能会降低连接概率！";
+"Parameter Settings" = "参数设置";
+"Back" = "返回";
+"NETWORK_NOT_REACHABLE" = "您的iPhone尚未接入互联网";
+"selectFirmware"                   ="选择固件";
+"importFirmware"                   ="导入固件";
+
+"DOWNLOADING" = "正在下载...";
+"DOWNLOAD_SUCCEEDED" = "下载成功";
+"DOWNLOAD_FAILED" = "下载失败";
+"Import firmware" = "导入固件";
+"Get from QQ" = "从QQ获取文件";
+"Get from WeChat" = "从微信获取";
+"Download from web" = "从网络下载";
+"Get from Documents folder" = "从Documents文件夹获取";
+"Please enter the download path of the firmware" = "请输入固件的下载路径";
+"Download file name" = "下载文件名";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Home
+
+"DOCUMENTS" = "文档";
+"WEB_BROWSER" = "网页浏览器";
+"DOWNLOADER" = "下载器";
+"WIFI_TRANSFER" = "WiFi传输";
+"SETTINGS" = "设置";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Common
+
+"YES" = "是";
+"NO" = "否";
+"OK" = "确定";
+"CANCEL" = "取消";
+"ERROR" = "错误";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// File System
+
+"COPY" = "复制";
+"CUT" = "剪切";
+"PASTE" = "粘贴";
+"RENAME" = "重命名";
+"DELETE" = "删除";
+"ZIP" = "压缩";
+"EXTRACT" = "解压缩";
+"EMAIL" = "邮件";
+"OPEN_IN" = "打开";
+
+"NEW_FOLDER" = "新建文件夹";
+"NEW_TEXT_FILE" = "新建文本文件";
+"PHOTO_LIBRARY" = "相册";
+"CAMERA" = "摄像机";
+
+"ALL" = "所有";
+"FOLDER" = "文件夹";
+"FILE" = "文件";
+
+"COPYING" = "正在复制……";
+"CUTTING" = "正在剪切……";
+"REMOVING" = "正在移除……";
+"ARCHIVING" = "正在压缩……";
+"EXTRACTING" = "正在解压缩……";
+"CANCELLING" = "正在取消……";
+
+"COPYING_FILES" = "正在拷贝文件……";
+"MOVING_FILES" = "正在移动文件……";
+
+"FINISHED_PROMPT" = "完成！";
+
+"COPYING_FILES_FAILED" = "拷贝文件失败";
+"COPYING_RECURSIVELY_FORMATTER" = "不能把文件夹'%@'拷贝到它的子目录。";
+
+"MOVING_FILES_FAILED" = "移除文件失败";
+"MOVING_RECURSIVELY_FORMATTER" = "不能把文件夹'%@'移动到它的子目录。";
+
+"EMAIL_SIZE_PROMPT" = "邮件大小限制为15MB。";
+"TEXT_FILE_SIZE_PROMPT" = "文本文件大小限制为20MB。";
+
+"SAVE_CHANGES" = "保存改变";
+"SAVE_CHANGES_MESSAGE" = "有更改，是否保存或放弃所有更改？";
+"OPEN_TEXT_FAILED_PROMPT" = "某些文件数据与指定的文本编码不匹配。在“设置”中尝试其他文本编码。";
+"SAVE_NAME" = "保存名称";
+"ITEM_EXISTS_FORMATTER" = "当前位置已存在名为%@的项目。想把它替换成新的吗？";
+"SAVE" = "保存";
+"DISCARD" = "丢弃";
+"REPLACE" = "替换";
+"IGNORE" = "忽略";
+
+"PASSWORD_PROMPT" = "输入文件密码：";
+"INVALID_PASSWORD" = "无效的密码";
+
+"BAD_IMAGE_TITLE" = "损坏的图片";
+"BAD_IMAGE_PROMPT" = "无法显示此图像，因为其格式无效。";
+
+"BAD_PDF_TITLE" = "损坏的PDF";
+"BAD_PDF_PROMPT" = "不能显示此PDF，因为其格式无效。";
+
+"SAVE_TO_PHOTO_LIBRARY" = "保存到相册";
+
+"PRINT" = "打印";
+"CANNOT_PRINT_TITLE" = "不能打印";
+"CANNOT_PRINT_PROMPT" = "此文件不能打印。";
+
+////////////////////////////////////////////////////////////////////////////////
+// Beacon 广播
+
+"Beacon Broadcast" = "Beacon 广播";
+"Switch" = "切换";
+"The last four digits of Mac" = "Mac的最后四位数字";
+"Default is" = "默认是";
+"Alarm" = "警报";
+"Moving" = "移动";
+"Channel" = "通道";
+
+"Add UUID" = "添加UUID";
+"Add iBeacon UUID" = "添加iBeacon UUID";
+"The length and format must be" = "长度和格式必须为";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// App 版本更新
+
+"Update Available" = "可用更新";
+"A new version" = "新版本";
+"is available on the App Store." = "可在App Store上找到。";
+"Update" = "去更新";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Browser
+
+"BLANK_PAGE" = "空白";
+"SET_HOME_PAGE" = "设置为主页";
+"SAVE_PAGE" = "保存此页";
+"OPEN" = "打开";
+"COPY_LINK" = "拷贝链接";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Downloader
+
+"DOWNLOAD" = "下载";
+"DOWNLOADING" = "正在下载";
+"DOWNLOADING_STARTED" = "下载已经开始";
+"DOWNLOADING_STARTED_PROMPT" = "检查“下载器”部分";
+"NOT_NOW" = "不是现在";
+"GO_THERE" = "到那里去";
+"DOWNLOAD_AGAIN" = "重新下载";
+"DONE" = "完成";
+"FAILED" = "失败";
+"STOPPED" = "停止";
+"DOWNLOAD_CONFIRMATION_FORMATTER" = "文件“%@”已下载，是否再次下载？";
+"DT_START_STOP_ALL_TITLE" = "启动/停止所有挂起的下载";
+"START" = "开始";
+"STOP" = "停止";
+"START_ALL" = "开始所有";
+"STOP_ALL" = "停止所有";
+"DT_CLEAR_ALL_TITLE" = "清除已完成的下载";
+"DT_CLEAR_ALL_PROMPT" = "是否清除所有已完成的下载？";
+"DT_ALL_CLEARED_PROMPT" = "没有已完成的下载。";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// WiFi Transfer
+
+"WIFI_STATUS_ON" = "WiFi状态：开启";
+"WIFI_STATUS_OFF" = "WiFi状态：关闭";
+"WIFI_DETAIL_FORMATTER" = "您现在可以通过WiFi连接到您的%@。 使用以下地址之一，就像你看到的那样：\r\n1. http://%@:%u\r\n2. http://%@:%u";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Settings
+
+"SORTING_FILES" = "排序文件";
+"FSSortingMode" = "排序模式";
+"FSSortingOrder" = "排序顺序";
+"SORT_BY_NAME" = "按名称排序";
+"SORT_BY_DATE" = "按日期排序";
+"SORT_BY_KIND" = "按类型排序";
+"SORT_BY_SIZE" = "按名尺寸排序";
+"ASCENDING" = "升序";
+"DESCENDING" = "降序";
+
+"SCREEN_ORIENTATION" = "屏幕方向";
+"FILE_BROWSER" = "文件浏览器";
+"VIEWING_FILES" = "查看文件";
+"WEB_BROWSER" = "网页浏览器";
+"LOCK_ORIENTATION" = "锁定方向";
+"SHOW_EXTENSIONS" = "显示扩展名";
+"VIEWING_TXT_FILES" = "查看TXT文件";
+"TXT_FILES" = "TXT文件";
+"HOME_PAGE" = "主页";
+"FONT" = "字体";
+"NAME" = "名称";
+"SIZE" = "大小";
+"ENCODING" = "编码";
+"FONT_SIZE" = "字体大小";
+"Password" = "密码";
+"INPUT_QUESTION_PROMPT" = "请输入反馈问题。";
+"Bluetooth is powered off" = "蓝牙未开启";
+"Password is more than 8 numbers" = "密码超过8位数字";
+"INPUT_TOO_MUCH_PROMPT" = "输入的字符数超过512个";
+"Save to photo library" = "保存到相册";
+"MODULE_NOT_MATCHED" = "设备的型号跟文件的型号不匹配";
+"FeasyBlue requires Bluetooth" = "请打开蓝牙";
+"Save" = "保存";
+"Connection Timeout" = "连接超时";
+"Start upgrade" = "开始升级";
+"Restore factory setting" = "恢复出厂设置";
+"Model" = "型号:";
+"App Version" = "App版本";
+"BL Version" = "BL版本";
+"Upgrade file:" = "升级文件：";
+"Module" = "模块";
+"Firmware" = "固件";
+"Feedback of problems" = "问题反馈";
+"Please import firmware" = "请导入固件";
+"File is not exist" = "文件不存在";
+"Wrong file name" = "错误的文件名";
+"Set parameters timeout" = "设置参数超时";
+"GSENSOR_INTERVAL_TIP" = "Gsensor的间隔必须为0或者在范围100~10000内";
+"GSENSOR_DURATION_TIP" = "Gsensor的持续时间必须在范围1000~120000内";
+"Loading..." = "正在加载……";
+"Saving..." = "正在保存……";
+"Saving Gsensor parameters failed" = "保存Gsensor参数失败";
+" is out of range " = "超出范围";
+" and not 0" = "且不为0";
+"Interval" = "间隔:";
+"interval" = "间隔";
+"duration" = "持续时长";
+"sensitivity" = "敏感度";
+"Device" = "设备";
+"Connection closed" = "连接已关闭";
+"The broadcast interval cannot all be 0" = "广播间隔时间不能全为0";
+"Are you sure to delete the broadcast?" = "确认删除广播?";
+"FeedBack" = "反馈";
+"Advices" = "建议";
+"AbnormalUI" = "界面异常";
+
+"NoNetwork" = "无网络，请稍后重试";
+"Telephone" = "电话";
+"Mail" = "邮件";
+"Wechat" = "微信公众号";
+"CompanyProfile" = "公司介绍";
+"More" = "更多";
+"CompanyName" = "深圳市焱鸟科技有限公司";
+"Unkown" = "未命名";
+"Connecting" = "正在连接...";
+"FeasycomProfile" = "    深圳市飞易通科技是一家专业，不断创新的高新科技企业，公司配备了资深优秀的研发团队，主要从事短距离通讯方案的设计，研发与生产。因为有着极其丰富的行业经验，我司可根据客户的各种需求，进行专业化的定制服务。目前我司在物联网、移动互联、汽车电子、健康医疗、智能家居等领域构筑了端到端的解决方案，并同众多的海内外合作伙伴展开了紧密的合作关系。\n\n    飞易通蓝牙模块产品主要涵盖蓝牙4.0,3.0,2.1等版本。针对不同客户及不同应用环境，我们已推出蓝牙4.0低功耗系列模块，蓝牙4.0双模系列模块，经典蓝牙2.1系列模块等，主要应用于蓝牙数传，蓝牙组网，蓝牙数传+音频等应用，并可为客户深度定制产品，提供一站式解决方案及服务。\n\n    另外，飞易通还推出蓝牙条码枪、蓝牙网关、TWS音箱，智能玩具等整套蓝牙解决方案，现已广泛应用于国内外高新企业，为广大终端用户提供了一种更简单、自由，一站式的通讯模式。";
+"WeChatOffical" = "    基于微信公众平台，我们推出了微信硬件平台。通过平台规定的连接协议，各种智能设备如蓝牙设备、WIFI 设备和其它移动网络设备都能方便地接入微信，完成设备一人一服务的连接。";
+"ServiceTenet" = "   敢为人先，是飞易通一直跻身于行业佼佼者的关键，在不久的将来，我司将厚积薄发，以现有的先进，专业的蓝牙模块经验，为用户提供更专业，独特，创新的一体式蓝牙技术成品。";
+"Save to mobile photo album" = "保存到手机系统相册";
+"The picture has been saved to the phone album" = "图片已保存到手机系统相册";
+"Please input feedback content" = "请输入反馈内容";
+"Feedback success" = "反馈成功";
+"Feedback fail" = "反馈失败";
+"BatchConfigSuchDevices" = "批量配置此类设备";
+"BatchConfigInfomation" = "批量配置信息";
+"Please enter a name within 25 characters" = "请输入25个字符以内的名称";
+"Please enter 6 digits" = "请输入6位数字";
+"sensitivity" = "灵敏度";
+"duration" = "持续时间";
+"Broadcast Interval" = "广播间隔";
+"Please check the item to be modified" = "请勾选要进行修改的项目";
+"Name cannot be empty" = "「名称」不能为空";
+"The effective range of interval time is 100ms~2000ms" = "「间隔时间」有效范围为100ms～2000ms";
+"The effective range of interval time for Gsensor is 100ms to 2000ms" = "「Gsensor的间隔时间」有效范围为100ms～2000ms";
+"The effective range of interval time for Key is 100ms to 2000ms" = "「Key的间隔时间」有效范围为100ms～2000ms";
+"The 'PIN' length can only be set to six digits" = "「PIN」长度只能设置为六位";
+"Unconfigured devices" = "未配置的设备";
+"Select All" = "全选";
+"select" = "选择";
+"Please select the device that needs to be configured" = "请选择需要进行配置的设备";
+"Configuring devices in bulk" = "批量配置设备中";
+"Reporting" = "生成报告";
+"Incomplete List" = "未完成列表";
+"Completed List" = "已完成列表";
+"Incomplete List(%ld)" = "未完成列表(%ld)";
+"Completed List(%ld)" = "已完成列表(%ld)";
+"Important Reminder" = "重要提醒";
+"If configuration is stopped, it will end the batch configuration operation of all unfinished devices" = "如果停止配置，将会结束未完成的所有设备的批量配置操作";
+"Confirm Stop" = "确定停止";
+"Continue configuration" = "继续配置";
+"Report generated" = "报告已生成";
+"The file path is:" = "文件路径为：";
+"Batch configuration" = "批量配置";
+"%@ verification failed" = "%@验证失败";
+"%@ loading parameters failed" = "%@加载参数失败";
+"%@ configuration failed" = "%@配置失败";
+"%@ saving parameters failed" = "%@保存参数失败";
+"This batch configuration of devices has ended" = "本次批量配置设备已结束";
+"Continue bulk configuration" = "继续批量配置";
+"Stay on this page" = "留在此页面";
+"ResetDevice" = "重置设备";
+"Reset failed" = "重置失败";
+"Reset success" = "重置成功";
+"Resetting..." = "重置中...";
+"Illegal parameter, please re-enter." = "非法参数,请重新输入";
+"AT Debug" = "AT指令调试";
+
+"Log Export" = "日志";
+
+////////////////////////////////////////////////////////////////////////////////
+// About
+
+"About" = "关于";
+"Feed Back" = "意见反馈";
+"Company" = "公司";
+"Telephone" = "电话咨询";
+"Website" = "公司官网";
+"Email" = "邮件咨询";
+"WeChat" = "微信公众号";
+"Company Info" = "公司介绍";
+"App Version" = "APP版本：";
+"SDK Version" = "SDK版本：";
+"More Infomation" = "点击查看";
+"Feasycom Company" = "深圳市焱鸟科技有限公司";
+"Company Introduction" = "公司介绍";
+"Feasycom" = "深圳市焱鸟科技有限公司";
+"Feasycom detail" = "Glowbird是一家领先的物联网产品公司，在无线连接行业拥有超过15年的研发经验。我们的重点是创建创新的无线通信模块，为物联网设备实现无缝连接。\n\nGlowbird在为全球数千家不同客户提供低风险产品开发、降低系统集成成本和缩短产品开发周期方面拥有巨大的能力。";
+
+////////////////////////////////////////////////////////////////////////////////
+// Feed Back
+"Feedback Type" = "反馈类型";
+"Advice" = "建议";
+"Function" = "功能异常";
+"UI" = "界面异常";
+"Cooperate" = "合作";
+"Description" = "问题描述";
+"Fb_email"="*联系邮箱";
+"Please enter your email." = "请输入您的邮箱";
+"Please enter a valid email address" = "请输入有效的邮箱地址";
+"Log Export" = "日志";
+"Log List" = "日志列表";
+"Clear logs" = "清空当前日志";
+"Password error" = "密码错误";
+"Developer debugging" = "开发者模式";
+"Infomation" = "提示";
+"Delete All" = "删除全部";
+"Confirm Deletion" = "确认删除";
+"Do you want to delete all log files?" = "是否删除所有日志文件？";

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FWFilterNameTableViewCell" id="KGk-i7-Jjw" customClass="FWFilterNameTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名字过滤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxt-x8-5jQ">
+                        <rect key="frame" x="15" y="11.5" width="69.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JoL-BW-JtE">
+                        <rect key="frame" x="256" y="6.5" width="51" height="31"/>
+                    </switch>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bg7-mV-dOB">
+                        <rect key="frame" x="104.5" y="3" width="131.5" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="JoL-BW-JtE" secondAttribute="trailing" constant="15" id="B0N-95-e28"/>
+                    <constraint firstItem="Mxt-x8-5jQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ihc-sg-F5H"/>
+                    <constraint firstItem="Mxt-x8-5jQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Tvc-HU-DBW"/>
+                    <constraint firstItem="bg7-mV-dOB" firstAttribute="leading" secondItem="Mxt-x8-5jQ" secondAttribute="trailing" constant="20" id="XFF-Xr-phV"/>
+                    <constraint firstItem="JoL-BW-JtE" firstAttribute="leading" secondItem="bg7-mV-dOB" secondAttribute="trailing" constant="20" id="bgL-dk-eCB"/>
+                    <constraint firstItem="JoL-BW-JtE" firstAttribute="centerY" secondItem="Mxt-x8-5jQ" secondAttribute="centerY" id="lng-Xj-7FA"/>
+                    <constraint firstAttribute="bottom" secondItem="bg7-mV-dOB" secondAttribute="bottom" constant="7" id="mnI-IK-amJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="filterEnableSwitch" destination="JoL-BW-JtE" id="LZe-VT-pP8"/>
+                <outlet property="nameTextField" destination="bg7-mV-dOB" id="TSW-ID-Mrp"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="153.82308845577214"/>
+        </tableViewCell>
+        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="tmn-WQ-xxr">
+            <rect key="frame" x="0.0" y="0.0" width="97" height="34"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <textInputTraits key="textInputTraits"/>
+            <point key="canvasLocation" x="-36" y="286"/>
+        </textField>
+    </objects>
+</document>

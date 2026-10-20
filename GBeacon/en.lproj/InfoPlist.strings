@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+NSBluetoothAlwaysUsageDescription = "When using this app, you need to search for and connect Bluetooth devices";
+NSBluetoothPeripheralUsageDescription = "Allow mobile phones to scan and discover Bluetooth devices";
+NSLocationUsageDescription = "Need to use location function to retrieve iBeacon broadcasts";
+NSLocationAlwaysUsageDescription = "The backend needs to use the positioning function to still retrieve the electronic fence region when the app is not activated";
+NSLocationWhenInUseUsageDescription = "Need to use location function to retrieve iBeacon broadcasts and electronic fences";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Need to use location function to retrieve iBeacon broadcasts";
+NSPhotoLibraryAddUsageDescription = "Used to save images from the app to the system album";
+NSPhotoLibraryUsageDescription = "Used to save images from the app to the system album";
+NSCameraUsageDescription = "We need to use the camera to scan QR codes";

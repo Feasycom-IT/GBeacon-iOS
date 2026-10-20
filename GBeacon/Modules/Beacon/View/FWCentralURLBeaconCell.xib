@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FWCentralURLBeaconCell" rowHeight="75" id="rLA-h1-pQl" customClass="FWCentralURLBeaconCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rLA-h1-pQl" id="wyw-Jl-bm0">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beacon_icon_url" translatesAutoresizingMaskIntoConstraints="NO" id="RL9-MB-P7Y">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="bxr-h6-1A3"/>
+                            <constraint firstAttribute="height" constant="50" id="mQJ-sQ-NLg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eddystone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dx3-NE-Ovh">
+                        <rect key="frame" x="63" y="8" width="69" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(URL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97N-Db-Zjz">
+                        <rect key="frame" x="137" y="8" width="37.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;0x10&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSK-bB-iWV">
+                        <rect key="frame" x="179.5" y="8" width="49" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tx power at 0m:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sx0-fA-EgI">
+                        <rect key="frame" x="63" y="30" width="104" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3X-54-TxH">
+                        <rect key="frame" x="172" y="30" width="24" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="URL:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHC-Eh-HLF">
+                        <rect key="frame" x="63" y="52" width="31" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dBm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sI9-Kb-4dg">
+                        <rect key="frame" x="201" y="30" width="30" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVQ-Lh-ycL">
+                        <rect key="frame" x="99" y="46" width="30" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tSK-bB-iWV" firstAttribute="centerY" secondItem="dx3-NE-Ovh" secondAttribute="centerY" id="1J9-wZ-zxF"/>
+                    <constraint firstItem="97N-Db-Zjz" firstAttribute="centerY" secondItem="dx3-NE-Ovh" secondAttribute="centerY" id="8X6-e6-Cy5"/>
+                    <constraint firstItem="sx0-fA-EgI" firstAttribute="leading" secondItem="dx3-NE-Ovh" secondAttribute="leading" id="ECY-3M-XWN"/>
+                    <constraint firstItem="tSK-bB-iWV" firstAttribute="leading" secondItem="97N-Db-Zjz" secondAttribute="trailing" constant="5" id="EKu-OO-gCS"/>
+                    <constraint firstItem="97N-Db-Zjz" firstAttribute="leading" secondItem="dx3-NE-Ovh" secondAttribute="trailing" constant="5" id="NYz-o2-K1z"/>
+                    <constraint firstItem="RL9-MB-P7Y" firstAttribute="leading" secondItem="wyw-Jl-bm0" secondAttribute="leading" constant="8" id="OcY-YM-XbA"/>
+                    <constraint firstItem="yHC-Eh-HLF" firstAttribute="leading" secondItem="dx3-NE-Ovh" secondAttribute="leading" id="RCE-qN-Iqn"/>
+                    <constraint firstItem="dx3-NE-Ovh" firstAttribute="leading" secondItem="RL9-MB-P7Y" secondAttribute="trailing" constant="5" id="REn-zk-K4u"/>
+                    <constraint firstItem="dx3-NE-Ovh" firstAttribute="top" secondItem="RL9-MB-P7Y" secondAttribute="top" id="WC8-Qr-nPd"/>
+                    <constraint firstItem="sI9-Kb-4dg" firstAttribute="leading" secondItem="L3X-54-TxH" secondAttribute="trailing" constant="5" id="gOK-wi-6XG"/>
+                    <constraint firstItem="jVQ-Lh-ycL" firstAttribute="centerY" secondItem="yHC-Eh-HLF" secondAttribute="centerY" id="iWx-cW-esL"/>
+                    <constraint firstItem="jVQ-Lh-ycL" firstAttribute="leading" secondItem="yHC-Eh-HLF" secondAttribute="trailing" constant="5" id="jxz-hu-BDN"/>
+                    <constraint firstItem="L3X-54-TxH" firstAttribute="centerY" secondItem="sx0-fA-EgI" secondAttribute="centerY" id="kMw-2D-N4e"/>
+                    <constraint firstItem="L3X-54-TxH" firstAttribute="leading" secondItem="sx0-fA-EgI" secondAttribute="trailing" constant="5" id="kQK-Ya-hLC"/>
+                    <constraint firstItem="sI9-Kb-4dg" firstAttribute="centerY" secondItem="sx0-fA-EgI" secondAttribute="centerY" id="oyU-M2-wgs"/>
+                    <constraint firstItem="yHC-Eh-HLF" firstAttribute="top" secondItem="sx0-fA-EgI" secondAttribute="bottom" constant="5" id="x6m-Za-RrD"/>
+                    <constraint firstItem="RL9-MB-P7Y" firstAttribute="top" secondItem="wyw-Jl-bm0" secondAttribute="top" constant="8" id="xbN-Q4-avL"/>
+                    <constraint firstItem="sx0-fA-EgI" firstAttribute="top" secondItem="dx3-NE-Ovh" secondAttribute="bottom" constant="5" id="zZ0-or-pvD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressButton" destination="jVQ-Lh-ycL" id="DnM-x8-JV4"/>
+                <outlet property="eddystonePower" destination="L3X-54-TxH" id="n2I-2a-Lf6"/>
+            </connections>
+            <point key="canvasLocation" x="-2.3999999999999999" y="-46.326836581709152"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="beacon_icon_url" width="50" height="50"/>
+    </resources>
+</document>

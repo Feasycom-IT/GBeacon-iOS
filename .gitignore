@@ -1,0 +1,15 @@
+.DS_Store
+.AppleDouble
+__MACOSX/
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.ipa
+*.dSYM/
+.env
+.env.*
+*.p12
+*.pfx
+*.mobileprovision

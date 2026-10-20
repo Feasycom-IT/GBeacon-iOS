@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FWBeaconsViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FWCentralIBeaconCell" rowHeight="95" id="nO0-DF-czT" customClass="FWCentralIBeaconCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nO0-DF-czT" id="kR6-oK-Sae">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beacon_icon_ibeacon" translatesAutoresizingMaskIntoConstraints="NO" id="rxU-t3-dL9">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Mad-pB-Cnq"/>
+                            <constraint firstAttribute="height" constant="50" id="QMY-XL-eji"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iBeacon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z93-yF-oaB">
+                        <rect key="frame" x="63" y="8" width="52" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="UUID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGE-jx-LMp">
+                        <rect key="frame" x="63" y="30" width="38" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Major:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGP-fF-hLc">
+                        <rect key="frame" x="63" y="71.5" width="40.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xN7-fW-ZN2">
+                        <rect key="frame" x="105.5" y="73" width="36" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgT-XE-oct">
+                        <rect key="frame" x="226.5" y="73" width="40" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="dyX-R7-y0m"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Jw-Y5-a3b">
+                        <rect key="frame" x="183.5" y="71.5" width="41" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="FDA50693-A4E2-4FB1-AFCF-C6EB07647825" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2D-jp-Rui">
+                        <rect key="frame" x="63" y="52" width="307" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Jw-Y5-a3b" firstAttribute="centerY" secondItem="VGP-fF-hLc" secondAttribute="centerY" id="2K3-Yq-y26"/>
+                    <constraint firstItem="JgT-XE-oct" firstAttribute="leading" secondItem="4Jw-Y5-a3b" secondAttribute="trailing" constant="2" id="5Fi-Uk-d8P"/>
+                    <constraint firstItem="uGE-jx-LMp" firstAttribute="leading" secondItem="Z93-yF-oaB" secondAttribute="leading" id="CXP-Ne-2gM"/>
+                    <constraint firstItem="rxU-t3-dL9" firstAttribute="leading" secondItem="kR6-oK-Sae" secondAttribute="leading" constant="8" id="Dmj-1D-kzz"/>
+                    <constraint firstItem="uGE-jx-LMp" firstAttribute="top" secondItem="Z93-yF-oaB" secondAttribute="bottom" constant="5" id="FBJ-C7-mjf"/>
+                    <constraint firstItem="K2D-jp-Rui" firstAttribute="top" secondItem="uGE-jx-LMp" secondAttribute="bottom" constant="5" id="FQc-J7-aPa"/>
+                    <constraint firstItem="xN7-fW-ZN2" firstAttribute="leading" secondItem="VGP-fF-hLc" secondAttribute="trailing" constant="2" id="MbU-EG-ygk"/>
+                    <constraint firstItem="JgT-XE-oct" firstAttribute="centerY" secondItem="VGP-fF-hLc" secondAttribute="centerY" id="VSm-jR-0BM"/>
+                    <constraint firstItem="4Jw-Y5-a3b" firstAttribute="leading" secondItem="VGP-fF-hLc" secondAttribute="trailing" constant="80" id="Xog-yw-Jd0"/>
+                    <constraint firstItem="xN7-fW-ZN2" firstAttribute="centerY" secondItem="VGP-fF-hLc" secondAttribute="centerY" id="Xsu-Y9-CRT"/>
+                    <constraint firstItem="VGP-fF-hLc" firstAttribute="top" secondItem="K2D-jp-Rui" secondAttribute="bottom" constant="5" id="YpN-kl-Su9"/>
+                    <constraint firstItem="Z93-yF-oaB" firstAttribute="top" secondItem="rxU-t3-dL9" secondAttribute="top" id="aXg-em-0fR"/>
+                    <constraint firstItem="VGP-fF-hLc" firstAttribute="leading" secondItem="Z93-yF-oaB" secondAttribute="leading" id="hkG-5l-IyY"/>
+                    <constraint firstItem="rxU-t3-dL9" firstAttribute="top" secondItem="kR6-oK-Sae" secondAttribute="top" constant="8" id="uTm-SP-WPn"/>
+                    <constraint firstItem="Z93-yF-oaB" firstAttribute="leading" secondItem="rxU-t3-dL9" secondAttribute="trailing" constant="5" id="ue2-mS-jdR"/>
+                    <constraint firstAttribute="trailing" secondItem="K2D-jp-Rui" secondAttribute="trailing" constant="5" id="v0w-BG-i40"/>
+                    <constraint firstItem="K2D-jp-Rui" firstAttribute="leading" secondItem="Z93-yF-oaB" secondAttribute="leading" id="vN5-3B-flJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iBeaconMajor" destination="xN7-fW-ZN2" id="ikQ-b4-KRM"/>
+                <outlet property="iBeaconMinor" destination="JgT-XE-oct" id="oPF-Nq-rXv"/>
+                <outlet property="iBeaconUUID" destination="K2D-jp-Rui" id="iOv-XP-Azn"/>
+            </connections>
+            <point key="canvasLocation" x="-203.62318840579712" y="-27.790178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="beacon_icon_ibeacon" width="50" height="50"/>
+    </resources>
+</document>

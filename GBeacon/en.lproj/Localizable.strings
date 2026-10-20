@@ -1,0 +1,443 @@
+/* 
+  Localizable.strings
+  FeasyBeacon
+
+  Created by LIDONG on 14-3-1.
+  Copyright (c) 2014年 LIDONG. All rights reserved.
+*/
+
+"WATCH" = "Watch";
+"PULL_DOWN_TO_REFRESH" = "Pull down refresh...";
+"RELEASE_TO_REFRESH" = "Release refresh...";
+"REFRESHING" = "Loading...";
+"LOCAL_HOST" = "Local host";
+"PERIPHERAL" = "Peripheral";
+"Unnamed" = "Unnamed";
+"BLUETOOTH_POWEROFF_TITLE" = "The bluetooth is closed";
+"BLUETOOTH_POWEROFF_PROMPT" = "Please open in the settings";
+"CLOSE" = "Close";
+"CONNECTING" = "Connecting";
+"CONNECTION_ABORT" = "Connection is abort";
+"TOTAL_SENT" = "Total sent bytes";
+"TOTAL_RECEIVED" = "Total received bytes";
+"BYTE(S)" = "Byte(s)";
+"Shenzhen Feasycom Technology Co.,Ltd" = "Shenzhen Feasycom Technology Co.,Ltd";
+"User Agreement" = "User Agreement";
+"Privacy Agreement" = "Privacy Agreement";
+
+"Setting" = "Setting";
+"Save" = "Save";
+"Model:" = "Model:";
+"Version:" = "Version:";
+"Name:" = "Name:";
+"Interval(ms):" = "Interval(ms):";
+"Sort" = "Sort";
+"Filter" = "Filter";
+"Decrypt" = "Decrypt";
+"RSSI Filter" = "RSSI Filter";
+"RSSI Filter Threshold: " = "RSSI Filter Threshold: ";
+"Sensor" = "Sensor";
+"About" = "About";
+"Password" = "Password";
+"Please input six PIN code" = "Please input six PIN code";
+"Please input six digits's PIN code" = "Please input six digits's PIN code";
+"Please input PIN code" = "Please input PIN code";
+"Please input DecryptKey 128-AES" = "Please input DecryptKey 128-AES";
+"Please input 128 bit AES key" = "Please input 128 bit AES key";
+
+"FEEDBACK" = "Feedback";
+"Feedback" = "Feedback";
+"Submit" = "Submit";
+"Advice" = "Advice";
+"Dysfunction" = "Dysfunction";
+"UI adnormal" = "UI adnormal";
+"Cooperation" = "Cooperation";
+"FEEDBACK_SUCCEEDED" = "Feedback succeeded!";
+"FEEDBACK_FAILED" = "Feedback failed!";
+"Clear logs" = "Clear logs";
+"OK" = "OK";
+"Finish" = "Finish";
+"Broadcast Type" = "Broadcast Type";
+"Disconnected" = "Disconnected";
+"Connection timeout" = "Connection timeout";
+"Query parameters timeout" = "Query parameters timeout";
+"Query parameters failed" = "Query parameters failed";
+"Save parameters timeout" = "Save parameters timeout";
+"Broadcast interval, Gsensor interval and Key interval cannot be 0 at the same time" = "Broadcast interval, Gsensor interval and Key interval cannot be 0 at the same time";
+"Broadcast interval, G-Sensor interval and Key interval, at least one value: 0 < X ≤ 2000" = "Broadcast interval, G-Sensor interval and Key interval, at least one value: 0 < X ≤ 2000";
+"At least one item of the broadcast interval is less than or equal to 2000 and not 0, otherwise the module may be unusable after setting!" = "At least one item of the broadcast interval is less than or equal to 2000 and not 0, otherwise the module may be unusable after setting!";
+"SET_SUCCESSFUL" = "Set successful";
+"SET_FAILED" = "Set failed";
+"Password Failed" = "Password Failed";
+"PIN code failed" = "PIN code failed";
+"Cancel" = "Cancel";
+"Upgrade" = "Upgrade";
+"Please update to the new version" = "Please update to the new version";
+"Upgrade successful" = "Upgrade successful";
+"Upgrade failed" = "Upgrade failed";
+"Model not matched" = "Model not matched";
+"Please config your mail settings" = "Please config your mail settings";
+"You cancelled the composition!" = "You cancelled the composition!";
+"The mail has been saved!" = "The mail has been saved!";
+"The mail has been sent!" = "The mail has been sent!";
+"The mail sending failed!" = "The mail sending failed!";
+
+"Company" = "Company";
+"Tel" = "Tel";
+"Web" = "Web";
+"E-mail" = "E-mail";
+"WeChat" = "WeChat";
+"Manual" = "Manual";
+"Version" = "Version";
+"details" = "details";
+"COMPANY_INTRODUCTION" = "    Feasycom focus on the researching and developing of IoT (internet of things) products, including Bluetooth Modules, WiFi and LoRa Modules, Bluetooth Beacon, etc. With more than 10-year experiences in the wireless connectivity, which ensure us have the capability for providing low-risk product development, reducing system integration cost and shortening product customization cycle to thousands of diverse customer worldwide.\r\n\n\n\nFeasycom’s engineering and design services include:\r\n\nSDK\r\n\nAPP Support\r\n\nPCB Design\r\n\nDevelopment Board\r\n\nFirmware Development\r\n\nDepth Customization\r\n\nCertification Request\r\n\nTurn-Key Production Testing & Manufacturing\r\n\n\n\n    Our products and services mainly apply to Automotive, Point of Sale, Home Automation, Healthcare and Engineering, Banking, Computing, Vending Business, Location, Lighting and more.\r\n\n\n\n    Aiming at “Make Communication Easy and Freely”, Feasycom is dedicated to design and develop high-quality products, efficient services to customers, for today, and all days to come.";
+"PIN_CODE_LENGTH_ERROR" = "PIN code's length must be 6";
+"PIN_CODE_CHARACTER_ERROR" = "PIN code must be digit";
+"INPUT_QUESTION_PROMPT" = "Please input feedback question.";
+"INPUT_TOO_MUCH_PROMPT" = "The input characters is more than 512";
+"Store" = "Store";
+"Image saved" = "Please go to the album to view.";
+"DATA_CANNOT_BE_EMPTY" = "Data can'tt be empty";
+"INTERVAL_PROMPT" = "Selecting this advertising interval may lower the connection probability!";
+"Parameter Settings" = "Parameter Settings";
+"Back" = "Back";
+"NETWORK_NOT_REACHABLE" = "Your iPhone is not connect to internet";
+"selectFirmware"                   ="Select firmware";
+"importFirmware"                   ="Import firmware";
+
+"DOWNLOADING" = "Downloading...";
+"DOWNLOAD_SUCCEEDED" = "Download succeeded";
+"DOWNLOAD_FAILED" = "Download failed";
+"Import firmware" = "Import firmware";
+"Get from QQ" = "Get from QQ";
+"Get from WeChat" = "Get from WeChat";
+"Download from web" = "Download from web";
+"Get from Documents folder" = "Get from Documents folder";
+"Please enter the download path of the firmware" = "Please enter the download path of the firmware";
+"Download file name" = "Download file name";
+
+////////////////////////////////////////////////////////////////////////////////
+// Home
+
+"DOCUMENTS" = "Documents";
+"WEB_BROWSER" = "Web Browser";
+"DOWNLOADER" = "Downloader";
+"WIFI_TRANSFER" = "WiFi Transfer";
+"SETTINGS" = "Settings";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Common
+
+"YES" = "Yes";
+"NO" = "No";
+"OK" = "OK";
+"CANCEL" = "Cancel";
+"ERROR" = "Error";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// File System
+
+"COPY" = "Copy";
+"CUT" = "Cut";
+"PASTE" = "Paste";
+"RENAME" = "Rename";
+"DELETE" = "Delete";
+"ZIP" = "Zip";
+"EXTRACT" = "Extract";
+"EMAIL" = "Email";
+"OPEN_IN" = "Open In";
+
+"NEW_FOLDER" = "New Folder";
+"NEW_TEXT_FILE" = "New Text File";
+"PHOTO_LIBRARY" = "Photo Library";
+"CAMERA" = "Camera";
+
+"ALL" = "All";
+"FOLDER" = "Folder";
+"FILE" = "File";
+
+"COPYING" = "Copying...";
+"CUTTING" = "Cutting...";
+"REMOVING" = "Removing...";
+"ARCHIVING" = "Archiving...";
+"EXTRACTING" = "Extracting...";
+"CANCELLING" = "Cancelling...";
+
+"COPYING_FILES" = "Copying File(s)...";
+"MOVING_FILES" = "Moving File(s)...";
+
+"FINISHED_PROMPT" = "Finished!";
+
+"COPYING_FILES_FAILED" = "Copying File Failed";
+"COPYING_RECURSIVELY_FORMATTER" = "Cannot copy the folder '%@' to its subdirectory.";
+
+"MOVING_FILES_FAILED" = "Moving File Failed";
+"MOVING_RECURSIVELY_FORMATTER" = "Cannot move the folder '%@' to its subdirectory.";
+
+"EMAIL_SIZE_PROMPT" = "Email is limited to 15MB.";
+"TEXT_FILE_SIZE_PROMPT" = "Text file is limited to 20MB.";
+
+"SAVE_CHANGES" = "Save Changes";
+"SAVE_CHANGES_MESSAGE" = "There are changes made, do you want to save or discard all your changes?";
+"OPEN_TEXT_FAILED_PROMPT" = "Some file data doesn't match specified text encoding. Try other text encoding in Settings.";
+"SAVE_NAME" = "Save Name";
+"SAVE" = "Save";
+"DISCARD" = "Discard";
+"REPLACE" = "Replace";
+"IGNORE" = "Ignore";
+
+"PASSWORD_PROMPT" = "Enter file password:";
+"INVALID_PASSWORD" = "Invalid Password";
+
+"BAD_IMAGE_TITLE" = "Bad Image";
+"BAD_IMAGE_PROMPT" = "Cannot display this image, for its format is invalid.";
+
+"BAD_PDF_TITLE" = "Bad PDF";
+"BAD_PDF_PROMPT" = "Cannot display this PDF, for its format is invalid.";
+
+"SAVE_TO_PHOTO_LIBRARY" = "Save to Photo Library";
+
+"PRINT" = "Print";
+"CANNOT_PRINT_TITLE" = "Cannot Print";
+"CANNOT_PRINT_PROMPT" = "The file is not printable.";
+
+////////////////////////////////////////////////////////////////////////////////
+// Beacon 广播
+
+"Beacon Broadcast" = "Beacon Broadcast";
+"Switch" = "Switch";
+"The last four digits of Mac" = "The last four digits of Mac";
+"Default is" = "Default is";
+"Alarm" = "Alarm";
+"Moving" = "Moving";
+"Channel" = "Channel";
+
+"Add UUID" = "Add UUID";
+"Add iBeacon UUID" = "Add iBeacon UUID";
+"The length and format must be" = "The length and format must be";
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// App 版本更新
+
+"Update Available" = "Update Available";
+"A new version" = "A new version";
+"is available on the App Store." = "is available on the App Store.";
+"Update" = "Update";
+
+////////////////////////////////////////////////////////////////////////////////
+// Browser
+
+"BLANK_PAGE" = "Blank";
+"SET_HOME_PAGE" = "Set As Home Page";
+"SAVE_PAGE" = "Save This Page";
+"OPEN" = "Open";
+"COPY_LINK" = "Copy Link";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Downloader
+
+"DOWNLOAD" = "Download";
+"DOWNLOADING" = "Downloading";
+"DOWNLOADING_STARTED" = "Downloading has started";
+"DOWNLOADING_STARTED_PROMPT" = "Check 'Downloader' section";
+"NOT_NOW" = "Not now";
+"GO_THERE" = "Go there";
+"DOWNLOAD_AGAIN" = "Download Again";
+"DONE" = "Done";
+"FAILED" = "Failed";
+"STOPPED" = "Stopped";
+"DOWNLOAD_CONFIRMATION_FORMATTER" = "File '%@' has been downloaded, do you want to download it again?";
+"DT_START_STOP_ALL_TITLE" = "Start/Stop all suspending downloadings";
+"START" = "Start";
+"STOP" = "Stop";
+"START_ALL" = "Start All";
+"STOP_ALL" = "Stop All";
+"DT_CLEAR_ALL_TITLE" = "Clear Finished Downloadings";
+"DT_CLEAR_ALL_PROMPT" = "Do you want to clear all finished downloadings?";
+"DT_ALL_CLEARED_PROMPT" = "There is no finished downloadings.";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// WiFi Transfer
+
+"WIFI_STATUS_ON" = "WiFi Status: ON";
+"WIFI_STATUS_OFF" = "WiFi Status: OFF";
+"WIFI_DETAIL_FORMATTER" = "You may connect to your %@ via WiFi now. Use one of the following addresses exactly as you see them:\r\n1. http://%@:%u\r\n2. http://%@:%u";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Settings
+
+"SORTING_FILES" = "Sorting Files";
+"FSSortingMode" = "Sorting Mode";
+"FSSortingOrder" = "Sorting Order";
+"SORT_BY_NAME" = "Sort By Name";
+"SORT_BY_DATE" = "Sort By Date";
+"SORT_BY_KIND" = "Sort By Kind";
+"SORT_BY_SIZE" = "Sort By Size";
+"ASCENDING" = "Ascending";
+"DESCENDING" = "Descending";
+
+"SCREEN_ORIENTATION" = "Screen Orientation";
+"FILE_BROWSER" = "File Browser";
+"VIEWING_FILES" = "Viewing Files";
+"WEB_BROWSER" = "Web Browser";
+"LOCK_ORIENTATION" = "Lock Orientation";
+"SHOW_EXTENSIONS" = "Show Extensions";
+"VIEWING_TXT_FILES" = "Viewing TXT Files";
+"TXT_FILES" = "TXT Files";
+"HOME_PAGE" = "Home Page";
+"FONT" = "Font";
+"NAME" = "Name";
+"SIZE" = "Size";
+"ENCODING" = "Encoding";
+"FONT_SIZE" = "Font Size";
+"Password" = "Password";
+"INPUT_QUESTION_PROMPT" = "Please input feedback question.";
+"Bluetooth is powered off" = "Bluetooth is powered off";
+"Password is more than 8 numbers" = "Password is more than 8 numbers";
+"INPUT_TOO_MUCH_PROMPT" = "The input characters is more than 512";
+"Save to photo library" = "Save to photo library";
+"MODULE_NOT_MATCHED" = "Device's module is not match the file module";
+"FeasyBlue requires Bluetooth" = "Please open your Bluetooth";
+"Save" = "Save";
+"Connection Timeout" = "Connection Timeout";
+"Start upgrade" = "Start upgrade";
+"Restore factory setting" = "Restore factory setting";
+"App Version" = "App Version";
+"BL Version" = "BL Version";
+"Upgrade file:" = "Upgrade file:";
+"Model" = "Model:";
+"Module" = "Module";
+"Firmware" = "Firmware";
+"Feedback of problems" = "Feedback of problems";
+"Please import firmware" = "Please import firmware";
+"File is not exist" = "File is not exist";
+"Wrong file name" = "Wrong file name";
+"Set parameters timeout" = "Set parameters timeout";
+"GSENSOR_INTERVAL_TIP" = "Gsensor's interval must be 0 or in range 100~10000";
+"GSENSOR_DURATION_TIP" = "Gsensor's duration must be in range 1000~120000";
+"Loading..." = "Loading...";
+"Saving..." = "Saving...";
+"Saving Gsensor parameters failed" = "Saving Gsensor parameters failed";
+" is out of range " = " is out of range ";
+" and not 0" = " and not 0";
+"Interval" = "Interval:";
+"interval" = "interval";
+"duration" = "duration";
+"sensitivity" = "sensitivity";
+"Device" = "Device";
+"Connection closed" = "Connection closed";
+"The broadcast interval cannot all be 0" = "The broadcast interval cannot all be 0";
+"Are you sure to delete the broadcast?" = "Are you sure to delete the broadcast?";
+"FeedBack" = "FeedBack";
+"Advices" = "Advices";
+"AbnormalUI" = "AbnormalUI";
+
+"NoNetwork" = "No network,please try again later.";
+"Telephone" = "Telephone";
+"Mail" = "Mail";
+"Wechat" = "Wechat";
+"CompanyProfile" = "Profile";
+"More" = "more";
+"CompanyName" = "Shenzhen Yanniao Technology Co.,Ltd";
+"Unkown" = "unknow";
+"Connecting" = "connecting...";
+"FeasycomProfile" = "     Feasycom is a professional and innovative high-tech enterprise equipped with a senior and excellent research and development team, mainly engaged in the design, research and production of short distance communication solutions. Due to our extensive industry experience, our company can provide specialized customized services according to the various needs of our customers. At present, our company has built end-to-end solutions in fields such as the Internet of Things, mobile connectivity, automotive electronics, healthcare, and smart home, and has established close cooperative relationships with numerous domestic and foreign partners. \n\n     The Bluetooth module products of Feiyitong mainly cover Bluetooth versions 4.0, 3.0, 2.1, etc. For different customers and application environments, we have launched Bluetooth 4.0 low-power series modules, Bluetooth 4.0 dual-mode series modules, classic Bluetooth 2.1 series modules, etc., mainly used in Bluetooth data transmission, Bluetooth networking, Bluetooth data transmission+audio and other applications. We can provide customers with customized products and one-stop solutions and services. \n\n     In addition, Feasycom has also launched a complete set of Bluetooth solutions such as Bluetooth barcode guns, Bluetooth gateways, TWS speakers, smart toys, etc., which have been widely used in high-tech enterprises at home and abroad, providing a simpler, more free, and one-stop communication mode for end users.";
+"WeChatOffical" = "     Based on the WeChat public platform, we have launched the WeChat hardware platform. Through the connection protocol specified by the platform, various smart devices such as Bluetooth devices, WIFI devices, and other mobile network devices can easily access WeChat, completing the connection of one person, one service for each device.";
+"ServiceTenet" = "     Daring to be the first is the key for Feasycom to consistently rank among the industry leaders. In the near future, our company will accumulate knowledge and provide users with more professional, unique, and innovative integrated Bluetooth technology products with our existing advanced and professional Bluetooth module experience.";
+"Save to mobile photo album" = "Save to mobile photo album";
+"The picture has been saved to the phone album" = "The picture has been saved to the phone album";
+"Please input feedback content" = "Please input feedback content";
+"Feedback success" = "Feedback success";
+"Feedback fail" = "Feedback fail";
+"BatchConfigSuchDevices" = "BatchConfigSuchDevices";
+"BatchConfigInfomation" = "BatchConfigInfomation";
+"Please enter a name within 25 characters" = "Please enter a name within 25 characters";
+"Please enter 6 digits" = "Please enter 6 digits";
+"sensitivity" = "sensitivity";
+"duration" = "duration";
+"Broadcast Interval" = "Broadcast Interval";
+"Please check the item to be modified" = "Please check the item to be modified";
+"Name cannot be empty" = "Name cannot be empty";
+"The effective range of interval time is 100ms~2000ms" = "The effective range of interval time is 100ms~2000ms";
+"The effective range of interval time for Gsensor is 100ms to 2000ms" = "The effective range of interval time for Gsensor is 100ms to 2000ms";
+"The effective range of interval time for Key is 100ms to 2000ms" = "The effective range of interval time for Key is 100ms to 2000ms";
+"The 'PIN' length can only be set to six digits" = "The 'PIN' length can only be set to six digits";
+"Unconfigured devices" = "Unconfigured devices";
+"Select All" = "Select All";
+"select" = "select";
+"Please select the device that needs to be configured" = "Please select the device that needs to be configured";
+"Configuring devices in bulk" = "Configuring devices in bulk";
+"Reporting" = "Reporting";
+"Incomplete List" = "Incomplete List";
+"Completed List" = "Completed List";
+"Incomplete List(%ld)" = "Incomplete List(%ld)";
+"Completed List(%ld)" = "Completed List(%ld)";
+"Important Reminder" = "Important Reminder";
+"If configuration is stopped, it will end the batch configuration operation of all unfinished devices" = "If configuration is stopped, it will end the batch configuration operation of all unfinished devices";
+"Confirm Stop" = "Confirm Stop";
+"Continue configuration" = "Continue configuration";
+"Report generated" = "Report generated";
+"The file path is:" = "The file path is:";
+"Batch configuration" = "Batch configuration";
+"%@ verification failed" = "%@ verification failed";
+"%@ loading parameters failed" = "%@ loading parameters failed";
+"%@ configuration failed" = "%@ configuration failed";
+"%@ saving parameters failed" = "%@ saving parameters failed";
+"This batch configuration of devices has ended" = "This batch configuration of devices has ended";
+"Continue bulk configuration" = "Continue bulk configuration";
+"Stay on this page" = "Stay on this page";
+"ResetDevice" = "ResetDevice";
+"Reset failed" = "Reset failed";
+"Reset success" = "Reset success";
+"Resetting..." = "Resetting……";
+"Illegal parameter, please re-enter." = "Illegal parameter, please re-enter.";
+"AT Debug" = "AT Debug";
+
+"Log Export" = "Log";
+
+////////////////////////////////////////////////////////////////////////////////
+// About
+
+"About" = "About";
+"Feed Back" = "Feedback";
+"Company" = "Company";
+"Telephone" = "Phone Call";
+"Website" = "Website";
+"Email" = "Email";
+"WeChat" = "WeChat";
+"Company Info" = "Company Info";
+"App Version" = "App Version:";
+"SDK Version" = "SDK Version:";
+"More Infomation" = "More Infomation";
+"Feasycom Company" = "Glowbird Company";
+"Company Introduction" = "Company Introduction";
+"Feasycom" = "Shenzhen Glowbird Co.,Ltd.";
+"Feasycom detail" = "Glowbird is a leading IoT products company with over 15 years of R&D experience in the wireless connectivity industry. Our focus is on creating innovative wireless communication modules that enable seamless connectivity for IoT devices.\n\nGlowbird has massive capabilities inproviding low-risk product development, reducing system integration cost and shortening product developing cycle for thousands of diverse customers worldwide.";
+
+////////////////////////////////////////////////////////////////////////////////
+// Feed Back
+"Feedback Type" = "Feedback Type";
+"Advice" = "Suggest";
+"Function" = "Function";
+"UI" = "Interface";
+"Cooperate" = "Cooperate";
+"Description" = "Description";
+"Fb_email"="*Email";
+"Please enter your email."="Please enter your email.";
+"Please enter a valid email address" = "Please enter a valid email address";
+"Log Export" = "Log";
+"Log List" = "Log";
+"Clear logs" = "Clear logs";
+"Password error" = "Password error.";
+"Developer debugging" = "Developer debugging";
+"Infomation" = "Infomation";
+"Delete All" = "Delete All";
+"Confirm Deletion" = "Confirm Deletion";
+"Do you want to delete all log files?" = "Do you want to delete all log files?";

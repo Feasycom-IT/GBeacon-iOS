@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="L08-We-KlW" customClass="FBPeripheralCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L08-We-KlW" id="SQg-Kc-yx6">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAC-ik-JbV">
+                        <rect key="frame" x="8" y="5" width="115" height="20"/>
+                        <attributedString key="attributedText">
+                            <fragment content="FSC-BT906-BLE">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="STHeitiSC-Medium"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mac:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mG-nr-L9g">
+                        <rect key="frame" x="8" y="35" width="31.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F0:0C:D1:CC:89:5B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8h-AG-cUE">
+                        <rect key="frame" x="44.5" y="35" width="126.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Kv-6c-N6P">
+                        <rect key="frame" x="344" y="35" width="23" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RSSI:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXL-mp-JeU">
+                        <rect key="frame" x="309.5" y="35" width="34.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vm7-L5-21b">
+                        <rect key="frame" x="8" y="56" width="359" height="4"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="4" id="Yfr-dL-i5W"/>
+                        </constraints>
+                    </progressView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6g-7k-ChE">
+                        <rect key="frame" x="332" y="5" width="40" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="VLf-xc-1Y3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="百分比电量0" translatesAutoresizingMaskIntoConstraints="NO" id="WuG-CJ-Uwb">
+                        <rect key="frame" x="292" y="6" width="30" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Jz0-tJ-CiV"/>
+                            <constraint firstAttribute="width" constant="30" id="Lxw-mT-ZWj"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WuG-CJ-Uwb" firstAttribute="centerY" secondItem="c6g-7k-ChE" secondAttribute="centerY" id="0wl-wy-UPB"/>
+                    <constraint firstAttribute="bottom" secondItem="9mG-nr-L9g" secondAttribute="bottom" constant="8" id="8xT-9z-dCa"/>
+                    <constraint firstItem="6Kv-6c-N6P" firstAttribute="leading" secondItem="RXL-mp-JeU" secondAttribute="trailing" id="AJJ-Sd-2yF"/>
+                    <constraint firstItem="vm7-L5-21b" firstAttribute="leading" secondItem="SQg-Kc-yx6" secondAttribute="leading" constant="8" id="BdD-tl-TAo"/>
+                    <constraint firstItem="YAC-ik-JbV" firstAttribute="top" secondItem="SQg-Kc-yx6" secondAttribute="top" constant="5" id="HzK-17-xSn"/>
+                    <constraint firstAttribute="trailing" secondItem="c6g-7k-ChE" secondAttribute="trailing" constant="8" id="JUe-0R-MUI"/>
+                    <constraint firstAttribute="bottom" secondItem="6Kv-6c-N6P" secondAttribute="bottom" constant="8" id="Njs-HX-eGo"/>
+                    <constraint firstAttribute="trailing" secondItem="6Kv-6c-N6P" secondAttribute="trailing" constant="8" id="PhM-Lx-VCK"/>
+                    <constraint firstAttribute="bottom" secondItem="vm7-L5-21b" secondAttribute="bottom" id="RMF-6c-xXx"/>
+                    <constraint firstItem="RXL-mp-JeU" firstAttribute="centerY" secondItem="6Kv-6c-N6P" secondAttribute="centerY" id="Xry-oW-Cz4"/>
+                    <constraint firstItem="W8h-AG-cUE" firstAttribute="leading" secondItem="9mG-nr-L9g" secondAttribute="trailing" constant="5" id="aA6-DH-Nis"/>
+                    <constraint firstAttribute="trailing" secondItem="vm7-L5-21b" secondAttribute="trailing" constant="8" id="aI6-DC-p5P"/>
+                    <constraint firstItem="YAC-ik-JbV" firstAttribute="leading" secondItem="SQg-Kc-yx6" secondAttribute="leading" constant="8" id="aIN-dQ-OZ0"/>
+                    <constraint firstItem="c6g-7k-ChE" firstAttribute="top" secondItem="SQg-Kc-yx6" secondAttribute="top" constant="5" id="aS7-Vj-3zw"/>
+                    <constraint firstItem="W8h-AG-cUE" firstAttribute="centerY" secondItem="9mG-nr-L9g" secondAttribute="centerY" id="cbe-Bu-EgJ"/>
+                    <constraint firstItem="c6g-7k-ChE" firstAttribute="leading" secondItem="WuG-CJ-Uwb" secondAttribute="trailing" constant="5" id="uch-RV-TvI"/>
+                    <constraint firstItem="9mG-nr-L9g" firstAttribute="leading" secondItem="SQg-Kc-yx6" secondAttribute="leading" constant="8" id="yxl-he-R0C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ElectricityImageView" destination="WuG-CJ-Uwb" id="0Qf-CF-8cQ"/>
+                <outlet property="electricityLabel" destination="c6g-7k-ChE" id="hHQ-AV-cjW"/>
+                <outlet property="macAddressLabel" destination="W8h-AG-cUE" id="EUK-K3-I3i"/>
+                <outlet property="nameLabel" destination="YAC-ik-JbV" id="gEg-ck-6R9"/>
+                <outlet property="rssiLabel" destination="6Kv-6c-N6P" id="xAF-V4-meq"/>
+                <outlet property="rssiProgress" destination="vm7-L5-21b" id="WiQ-5y-heK"/>
+            </connections>
+            <point key="canvasLocation" x="7.2000000000000002" y="-56.671664167916049"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="百分比电量0" width="142" height="62"/>
+    </resources>
+</document>

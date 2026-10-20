@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="FWConfigureSwitchCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="FWConfigureSwitchCell" id="wLq-OL-tKF" customClass="FWConfigureSwitchCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wLq-OL-tKF" id="pex-GF-PNj">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsm-jV-ZBu">
+                        <rect key="frame" x="15" y="8" width="0.0" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dvd-sZ-woi">
+                        <rect key="frame" x="318" y="8" width="51" height="28"/>
+                        <connections>
+                            <action selector="switchTransform:" destination="wLq-OL-tKF" eventType="valueChanged" id="tuM-Ey-rJP"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rsm-jV-ZBu" firstAttribute="top" secondItem="pex-GF-PNj" secondAttribute="top" constant="8" id="MjC-oS-e5L"/>
+                    <constraint firstAttribute="bottom" secondItem="rsm-jV-ZBu" secondAttribute="bottom" constant="8" id="RJf-tt-wXb"/>
+                    <constraint firstItem="dvd-sZ-woi" firstAttribute="top" secondItem="pex-GF-PNj" secondAttribute="top" constant="8" id="S7o-cE-YT5"/>
+                    <constraint firstItem="rsm-jV-ZBu" firstAttribute="leading" secondItem="pex-GF-PNj" secondAttribute="leading" constant="15" id="UO7-1H-pQb"/>
+                    <constraint firstAttribute="trailing" secondItem="dvd-sZ-woi" secondAttribute="trailing" constant="8" id="dcY-ko-Rzh"/>
+                    <constraint firstAttribute="bottom" secondItem="dvd-sZ-woi" secondAttribute="bottom" constant="8" id="y9f-qR-9VT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="switchBtn" destination="dvd-sZ-woi" id="joR-FU-oPt"/>
+            </connections>
+            <point key="canvasLocation" x="-86" y="-67"/>
+        </tableViewCell>
+    </objects>
+</document>
