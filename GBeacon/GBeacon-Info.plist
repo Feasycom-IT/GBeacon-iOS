@@ -58,10 +58,45 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>使用该App时需要搜索和连接蓝牙设备</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>允许手机扫描并发现蓝牙设备</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to use the camera to scan QR codes</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>需要使用定位功能检索iBeacon广播</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>后台需要使用定位功能才能在App未激活时依然能够检索电子围栏Region</string>
+	<key>NSLocationUsageDescription</key>
+	<string>需要使用定位功能检索iBeacon广播</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>需要使用定位功能检索iBeacon广播、电子围栏</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>用于将App中图片保存至系统相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>用于将App中图片保存至系统相册</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>DINCond-Bold.otf</string>
 	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>
@@ -106,23 +141,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>使用该App时需要搜索和连接蓝牙设备</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>允许手机扫描并发现蓝牙设备</string>
-	<key>NSLocationUsageDescription</key>
-	<string>需要使用定位功能检索iBeacon广播</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>后台需要使用定位功能才能在App未激活时依然能够检索电子围栏Region</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>需要使用定位功能检索iBeacon广播、电子围栏</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>需要使用定位功能检索iBeacon广播</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>用于将App中图片保存至系统相册</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>用于将App中图片保存至系统相册</string>
-	<key>NSCameraUsageDescription</key>
-	<string>We need to use the camera to scan QR codes</string>
 </dict>
 </plist>

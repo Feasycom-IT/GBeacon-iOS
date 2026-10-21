@@ -145,6 +145,7 @@
 		EADBC5CE2EEBF50000719DEE /* FEFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EADBC5CC2EEBF50000719DEE /* FEFeedbackViewController.m */; };
 		EADBC5D62EEBF52000719DEE /* FWAboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EADBC5D32EEBF52000719DEE /* FWAboutVC.m */; };
 		EADBC5D72EEBF52000719DEE /* FEFunctionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EADBC5D02EEBF52000719DEE /* FEFunctionButton.m */; };
+		5CE0C0012F00000100A1B2C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0C0022F00000100A1B2C3 /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -395,7 +396,7 @@
 		DD13BC2B24C58D07003D3EC1 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2D8B3D18C0CA16009E30A6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		DD5713C518C1316A00DA6ADB /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
-		DD5A459A25F8DA4300AD7F0F /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		DD5A459A25F8DA4300AD7F0F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD725D7D24878F21002BE764 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		DDE4D6D8230FDC3D005E6B20 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF335A818BA2FBF00852933 /* GBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -418,6 +419,8 @@
 		EADBC5D22EEBF52000719DEE /* FWAboutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWAboutVC.h; sourceTree = "<group>"; };
 		EADBC5D32EEBF52000719DEE /* FWAboutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWAboutVC.m; sourceTree = "<group>"; };
 		F4BD30BEB64ACFF7DC5E2AA5 /* Pods-FeasyBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeasyBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeasyBeacon/Pods-FeasyBeacon.release.xcconfig"; sourceTree = "<group>"; };
+		5CE0C0022F00000100A1B2C3 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5CE0C0032F00000100A1B2C3 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -564,6 +567,8 @@
 			children = (
 				84968DD62702CBBA0000AA07 /* FWAppDelegate.h */,
 				84968DD72702CBBA0000AA07 /* FWAppDelegate.m */,
+				5CE0C0032F00000100A1B2C3 /* SceneDelegate.h */,
+				5CE0C0022F00000100A1B2C3 /* SceneDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -1006,7 +1011,7 @@
 		DDF3359F18BA2FBF00852933 = {
 			isa = PBXGroup;
 			children = (
-				DD5A459A25F8DA4300AD7F0F /* readme.md */,
+				DD5A459A25F8DA4300AD7F0F /* README.md */,
 				DDF335B118BA2FBF00852933 /* GBeacon */,
 				DDF335CA18BA2FBF00852933 /* GBeaconTests */,
 				DDF335AA18BA2FBF00852933 /* Frameworks */,
@@ -1356,6 +1361,7 @@
 				84968E262702CC500000AA07 /* UIColor+FWColor.m in Sources */,
 				84968E732702D1980000AA07 /* FWFilterViewController.m in Sources */,
 				84968DD82702CBBB0000AA07 /* FWAppDelegate.m in Sources */,
+				5CE0C0012F00000100A1B2C3 /* SceneDelegate.m in Sources */,
 				84968E252702CC500000AA07 /* NSString+FscKit.m in Sources */,
 				842626EA2F29FF3A009A8D8B /* XLCircle.m in Sources */,
 				842626EB2F29FF3A009A8D8B /* XLCircleProgress.m in Sources */,
@@ -1508,7 +1514,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "";
@@ -1553,7 +1560,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1584,7 +1592,8 @@
 				GCC_PREFIX_HEADER = "GBeacon/GBeacon-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/GBeacon/GBeacon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GBeacon/Feedback/SDK",
@@ -1637,7 +1646,8 @@
 				GCC_PREFIX_HEADER = "GBeacon/GBeacon-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/GBeacon/GBeacon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GBeacon/Feedback/SDK",
